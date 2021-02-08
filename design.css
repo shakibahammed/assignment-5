@@ -1,6 +1,6 @@
 body{
     background-color:tomato;
-    margin: 100px;
+    margin: 0px ,100px;
 }
 .inputFild{
 border: none;
@@ -27,10 +27,20 @@ text-align: center;
 width: 300px;
 border-radius: 10px;
 
+
 }
 #FoodDetails{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
+}
+
+.show-image{
+    width: 200px;
+}
+#ingredientPart{
+    
+  padding-left: 50px;
+   
 }
