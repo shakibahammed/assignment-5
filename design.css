@@ -1,0 +1,36 @@
+body{
+    background-color:tomato;
+    margin: 100px;
+}
+.inputFild{
+border: none;
+background-color:#ddd;
+padding:7px;
+}
+
+.search-part{
+    text-align: center;
+    margin-top: 50px;
+}
+.itemName img{
+    width:200px;
+}
+.itemName h3{
+    color:rgb(233, 250, 255);
+    font-size: 30px;
+}
+
+.itemName{
+border: 2px solid white;
+padding: 20px;
+text-align: center;
+width: 300px;
+border-radius: 10px;
+
+}
+#FoodDetails{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
